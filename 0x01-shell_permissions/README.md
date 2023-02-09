@@ -1,0 +1,2 @@
+#!/bin/bash
+This is a README file describing each script
