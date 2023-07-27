@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays the visitors grouped by IP address and HTTP codes, order greatest to lowest
+
+my_file="apache-access.log"
+awk -F' ' '{ print $1, $9}' $my_file | sort | uniq -c|sort -nr
