@@ -1,2 +1,2 @@
 #!/bin/bash
-This is a file in the home directory
+This is a file in the home directory as said
