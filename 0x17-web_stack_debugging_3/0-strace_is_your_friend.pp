@@ -1,0 +1,5 @@
+# debug the Alx server
+exec { 'modify wp-setting file':
+  command => "sed -i '137s|phpp|php|' '/var/www/html/wp-settings.php'",
+  path    => ['/bin', '/usr/bin'],
+}
