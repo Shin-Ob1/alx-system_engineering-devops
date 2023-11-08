@@ -1,4 +1,4 @@
-# Web Stack debugging fix typo in config file
+# Debug Alx server
 exec { 'fix-wordpress':
   environment => ['DIR=/var/www/html/wp-settings.php',
                   'OLD=phpp',
